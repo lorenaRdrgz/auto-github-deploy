@@ -19,7 +19,7 @@ jobs:
           sudo chmod 600 ~/.ssh/id_rsa
 
       - name: Git config
-        run:
+        run: |
           git config --global user.email "cd-user@my-app.com"
           git config --global user.name "cd-user"
 
